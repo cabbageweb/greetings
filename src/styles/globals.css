@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .naves.selected {
+        @apply text-main
+    }
+}
+
+@layer base {
+    .mask {
+        mask-image: url("/images/about/mask.png");
+        -webkit-mask-image: url("/images/about/mask.png");
+        mask-size: contain;
+        -webkit-mask-size: contain;
+        mask-position: center center;
+        -webkit-mask-position: center center;
+        mask-repeat: no-repeat;
+        -webkit-mask-repeat: no-repeat;
+    }
+}
+
+
+@layer base {
+    .mask-2 {
+        mask-image: url("/images/happiness/mask.svg");
+        -webkit-mask-image: url("/images/happiness/mask.svg");
+        mask-size: contain;
+        -webkit-mask-size: contain;
+        mask-position: center center;
+        -webkit-mask-position: center center;
+        mask-repeat: no-repeat;
+        -webkit-mask-repeat: no-repeat;
+    }
+}
